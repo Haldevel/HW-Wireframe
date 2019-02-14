@@ -6,7 +6,7 @@
 body {
     margin: auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #333;
+    color: #777; 
     background: #777;
     width: 960px;
     font-size: 18px;
@@ -21,7 +21,7 @@ body {
 header {
     padding: 20px; 
     margin-bottom: 10px;
-    color: #333;
+    color: #777;
     background: #ebebeb;
     margin-top: 10px;
 }
@@ -29,45 +29,52 @@ header {
 nav {
     background: #ebebeb;
     padding: 20px; 
+    color: #777;
 
 }
 
 section {
-    width: 435px;
+    width: 495px;
     float: left;
     padding: 20px; 
     background: #ebebeb;
-    margin: 20px 0px;
-    height: 250px;
+    margin: 20px 20px 20px 0px;
 
 }
 
 aside {
-    width: 435px;
-    float: right;
+    width: 365px; 
+    float: left;
     padding: 20px;
     background: #ebebeb;
-    margin: 20px 0px;
-    /* margin: 20px 0px; */
-    height: 250px;
+    margin-top: 20px;
+    height: 252px; 
+}
+
+h6 {
+    padding: 15px;
 }
 
 article {
     padding: 20px;
     background: #777;
-    color: #ebebeb;
+    color: #777;
 }
 
 article h5 {
     background: #ebebeb;
-    color: #777;
-    padding: 10px;
+    padding: 15px; 
+   
+}
+
+article h6 {
+    color: #ebebeb;
 }
 
 article p {
     background: #ebebeb;
-    color: #777;
-    padding: 10px;
+    padding: 15px;
+    margin: 10px 0px;
 }
 
 footer {
@@ -75,5 +82,6 @@ footer {
     padding: 20px; 
     margin-top: 20px;
     background: #ebebeb;
+    color: #777;
 }
 
